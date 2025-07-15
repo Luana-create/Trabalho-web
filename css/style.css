@@ -12,7 +12,7 @@
 */
 #header{
     background-color: #0066CC;
-    padding: 15px; /*um unico numero indica todas as margens, todos os lados,topo, right,boton, left, */
+    padding: 15px; /*um unico numero indica todas as margens, todos os lados,topo, right,bottom, left, */
     text-align: center;
 }
 
@@ -33,4 +33,47 @@
 
 .white{
     color: white;
+}
+/*
+*********CONTENT***********
+*/
+
+#content{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+
+}
+
+#posts{
+    width: 660px;
+    float: left;
+}
+
+.post{
+    padding: 20px;
+    margin: 20px;
+    background: #ffffff;
+    text-align: justify;
+}
+.data-post{
+    font-size: 13px;
+    border-bottom: 1px solid #0066cc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+
+}
+
+/*
+*********RIGHT SIDE***********
+*/
+#right-side{
+    width: 240px;
+    float: right;
+}
+.content_right{
+    background: #ffffff;
+    padding: 10px;
+    margin-bottom: 20px;
 }
