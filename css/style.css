@@ -1,0 +1,36 @@
+/*
+*********LIMPAR FORMATAÇÕES***********
+*/
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+/*
+*********LIMPAR HEADER***********
+*/
+#header{
+    background-color: #0066CC;
+    padding: 15px; /*um unico numero indica todas as margens, todos os lados,topo, right,boton, left, */
+    text-align: center;
+}
+
+#logo, #menu{
+    padding: 10px;
+
+}
+
+#header a:link, a:visited{
+    color: white;
+    padding: 8px 12px;
+}
+#header a:hover{
+    color: #0066CC;
+    background: white;
+    text-decoration:none;
+}
+
+.white{
+    color: white;
+}
