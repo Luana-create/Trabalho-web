@@ -77,3 +77,32 @@
     padding: 10px;
     margin-bottom: 20px;
 }
+.post-right{
+    font-size: 13px;
+    padding: 5px;
+    border-bottom: 1px dotted #cccccc;
+}
+/*
+*********FORMATAÇÃO LINKS***********
+*/
+a{
+    text-decoration: none;
+
+}
+a:link, a :visited{
+    color:#0066cc
+}
+a:hover{
+    text-decoration:underline;
+}
+/*
+*********RODAPÉ***********
+*/
+#footer{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #ffffffff;
+    color:#0066CC;
+    
+}
