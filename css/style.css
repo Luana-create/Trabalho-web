@@ -6,6 +6,19 @@
     padding:0;
     
 }
+/*
+*********FORMATAÇÕES GENÉRICAS***********
+*/
+body{
+    font-size: 16px; ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #c4c4c4;
+
+
+}
+
+
+
 
 /*
 *********LIMPAR HEADER***********
@@ -56,6 +69,11 @@
     background: #ffffff;
     text-align: justify;
 }
+.img-post{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
 .data-post{
     font-size: 13px;
     border-bottom: 1px solid #0066cc;
@@ -104,5 +122,5 @@ a:hover{
     padding: 15px;
     background: #ffffffff;
     color:#0066CC;
-    
+
 }
